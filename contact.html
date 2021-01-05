@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact us</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/print.css" media="print">
+    <script src="./js/form.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <h3><a href="index.html">Home</a></h3>
+            </li>
+            <li>
+                <h3><a href="petpolicy.html">Pet Policy</a></h3>
+            </li>
+            <li>
+                <h3><a href="reviews.html">Reviews</a></h3>
+            </li>
+
+            <li>
+                <h3><a href="attractions.html">Attractions</a></h3>
+            </li>
+            <li>
+                <h3><a href="pricing.html">Pricing</a></h3>
+            </li>
+
+            <li>
+                <h3><a id="currentpage" href="contact.html">Contact us</a></h3>
+            </li>
+            <li>
+                <h3><a href="about.html">About us</a></h3>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="largest_section">
+        <div class="form">
+            <form action="#" method="post" id="DetailsForm" onsubmit="return checkDetails()">
+                  <h1>Contact form</h1>
+
+                  <label for="first">First name</label>
+                  <input type="text" id="first" oninput="this.setCustomValidity('')">
+
+                  <label for="last">Last name</label>
+                  <input type="text" id="last" oninput="this.setCustomValidity('')">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" oninput="this.setCustomValidity('')">
+
+                  <label for="phone">Phone</label>
+                  <input type="text" id="phone" oninput="this.setCustomValidity('')">
+
+                  <label for="info">Enquiry:</label>
+                  <textarea rows="4" cols="50" id="info" oninput="setCustomValidity('')"></textarea>
+
+                  <button type="submit">Submit form</button>
+                  <button type="reset">Reset form</button>
+            </form>
+      </div>
+    </section>
+
+    <footer>
+        <h2>FOLLOW US</h2>
+        <a href="https://www.facebook.com/groups/melbournebagpackers/" target="_blank"><img
+                src="icons/facebook_small.png" alt="Facebook icon"></a>
+        <a href="https://www.instagram.com/visitmelbourne/" target="_blank"><img src="icons/instagram_small.png"
+                alt="Instagram icon"></a>
+        <a href="https://twitter.com/melbtourism" target="_blank"><img src="icons/twitter_small.png"
+                alt="Twitter icon"></a>
+        <a href="https://www.youtube.com/watch?v=9tapywlF_lQ?autoplay=1" target="_blank"><img
+                src="icons/youtube-variation_small.png" alt="YouTube icon"></a>
+        <a href="https://www.paypal.com/" target="_blank"><img src="icons/paypal_small.png" alt="PayPal icon"></a>
+    </footer>
+    <footer class="copyright"> Copyright &copy; 2020 Sorrento by the Sea </footer>
+
+</body>
+
+</html>
